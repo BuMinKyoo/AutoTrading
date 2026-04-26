@@ -1,0 +1,11 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:AutoGetMoney_Converter="clr-namespace:AutoGetMoney.Converter">
+
+    <AutoGetMoney_Converter:IsEnabledStartConverter x:Key="IsEnabledStartConverter" />
+    <AutoGetMoney_Converter:IsEnabledStopConverter x:Key="IsEnabledStopConverter" />
+    <AutoGetMoney_Converter:MultiFibonacciColorConverter x:Key="MultiFibonacciColorConverter" />
+    <AutoGetMoney_Converter:MultiFibonacciColorConverterSecond x:Key="MultiFibonacciColorConverterSecond" />
+
+</ResourceDictionary>
